@@ -1,6 +1,6 @@
-pub trait SafeBuilder
+pub trait SafeBuilder<T: PartialBuilder>
 {
-    fn build() -> PartialBuilder;
+    fn build() -> T;
 }
 
 pub trait PartialBuilder { }
