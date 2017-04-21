@@ -1,6 +1,11 @@
 [package]
 name = "safe-builder"
 version = "0.1.0"
-authors = ["Matthew"]
+authors = ["Matthew Maclean"]
+description = "Traits for safe-builder-derive"
+licence = "MIT"
+licence-file = "LICENCE"
+keywords = ["builder"]
+repository = "https://github.com/Matthew-Maclean/safe-builder"
 
 [dependencies]
